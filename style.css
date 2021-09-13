@@ -1,0 +1,39 @@
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: cursive;
+
+}
+
+h1{
+  color: gold;
+}
+
+input{
+  margin: 1rem;
+  padding:1rem;
+  border: 3px solid greenyellow;
+  border-radius: 1rem;
+  font-family: cursive;
+}
+
+.inline{
+  display: inline;
+}
+
+button{
+  margin: .5rem;
+  padding: 1rem;
+  border: 3px solid greenyellow;
+  border-radius: 1rem;
+  font-family: cursive;
+}
+
+#output{
+  margin: .5rem;
+  padding: .5rem; 
+
+}
+
