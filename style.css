@@ -1,46 +1,71 @@
-body{
-  background-color: black;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-family: cursive;
-
-}
-
-h1{
-  color: gold;
-}
-
-input{
-  margin: 1rem;
-  padding:1rem;
-  border: 3px solid greenyellow;
-  border-radius: 1rem;
-  font-family: cursive;
-}
-
-.inline{
-  display: inline;
-}
-
-button{
-  margin: .5rem;
-  padding: 1rem;
-  border: 3px solid greenyellow;
-  border-radius: 1rem;
-  font-family: cursive;
-}
-
-#output{
-  margin: .5rem;
-  padding: .5rem; 
-  color: #ffffff;
-
-}
-
-footer{
-  color:hotpink;
-  margin-top: 17vw;
-}
-
+    body {
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* justify-content: center; */
+        font-family: 'Courier New', Courier, monospace;
+        font-style: larger;
+        margin: auto;
+    }
+    
+    h1 {
+        text-align: center;
+        color: gold;
+        margin: 1rem;
+        margin-top: 2rem;
+    }
+    
+    input {
+        margin: 1rem;
+        padding: 2rem;
+        border: 3px solid red;
+        border-radius: .3rem;
+        font-family: cursive;
+        font-size: larger;
+    }
+    
+    button:hover {
+        background-color: grey;
+    }
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(130, 153, 92);
+        border-radius: .5rem;
+        margin: auto;
+    }
+    
+    button {
+        margin: .5rem;
+        padding: .8rem;
+        border: 3px solid greenyellow;
+        border-radius: 1rem;
+    }
+    
+    .inline {
+        text-align: center;
+        margin: .4rem;
+        padding: .4rem;
+        border: 2px solid greenyellow;
+        border-radius: 1rem;
+    }
+    
+    #output {
+        font-weight: bold;
+        text-align: center;
+        /* margin: .5rem;
+        padding: .5rem; */
+        color: black;
+        background-color: lightgreen;
+        border-radius: 1rem;
+        margin-bottom: .7rem;
+        font-size: x-large;
+    }
+    
+    .mohasin {
+        font-weight: bold;
+        color: hotpink;
+        margin-top: 17vw;
+    }
