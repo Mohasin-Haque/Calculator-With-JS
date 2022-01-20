@@ -32,7 +32,7 @@
     .container {
         display: flex;
         flex-direction: column;
-        background-color: rgb(130, 153, 92);
+        background-color: rgb(20 0 113);
         border-radius: .5rem;
         margin: auto;
     }
